@@ -1,5 +1,6 @@
 * {
     font-family: Roboto;
+    display: flex;
 }
 
 .hero,
@@ -7,10 +8,22 @@
     background-color: #1F2937;
 }
 
+.heading {
+    display: inline-flex;
+}
+
 .title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+}
+
+.links {
+    display: flex
+}
+
+a {
+    text-decoration: none;
 }
 
 .links,
