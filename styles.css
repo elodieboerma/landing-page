@@ -1,6 +1,11 @@
 * {
     font-family: Roboto;
     display: flex;
+    flex-direction: column;
+}
+
+title {
+    display: none;
 }
 
 .hero,
@@ -8,8 +13,9 @@
     background-color: #1F2937;
 }
 
-.heading {
-    display: inline-flex;
+.top {
+    /*display: inline-flex;*/
+    justify-content: space-around;
 }
 
 .title {
@@ -19,7 +25,9 @@
 }
 
 .links {
-    display: flex
+    flex-direction: row;
+    /*display: inline-flex;*/
+    color: #E5E7EB;
 }
 
 a {
@@ -37,6 +45,16 @@ a {
     font-size: 24px;
 }
 
+.lefttop {
+    width: 400px;
+}
+
+img {
+    display: inline-block;
+    width: 425px;
+    background-color: #e5e7eb88;
+}
+
 button,
 .action {
     background-color: #3882F6;
@@ -46,6 +64,21 @@ button,
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+}
+
+.section {
+    flex-direction: row;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 
 .words {
