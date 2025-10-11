@@ -63,6 +63,14 @@ img {
     background-color: #e5e7eb88;
 }
 
+#topbutton {
+    border-color: #3882F6;
+}
+
+button {
+    border-radius: 5px;
+}
+
 button,
 .action {
     color: #E5E7EB;
@@ -71,7 +79,6 @@ button,
 
 .gallery,
 .words,
-.action,
 .footer {
     align-items: center;
     justify-content: center;
@@ -113,8 +120,17 @@ button,
 
 .action {
     flex-direction: row;
+    width: 500px;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px 30px;
+    border-radius: 5px;
 }
 
 .leftbottom {
     flex-direction: column;
+}
+
+#bottombutton {
+    border-color: #E5E7EB;
 }
