@@ -65,6 +65,7 @@ img {
 
 button,
 .action {
+    color: #E5E7EB;
     background-color: #3882F6;
 }
 
@@ -73,6 +74,7 @@ button,
 .action,
 .footer {
     align-items: center;
+    justify-content: center;
 }
 
 .info {
@@ -110,5 +112,9 @@ button,
 }
 
 .action {
-    color: #E5E7EB;
+    flex-direction: row;
+}
+
+.leftbottom {
+    flex-direction: column;
 }
