@@ -110,13 +110,21 @@ button,
 .words {
     color: #1F2937;
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: light italic;
     align-items: center;
+    padding: 50px 0px;
 }
 
 .quote {
     width: 775px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.attribution {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+    padding: 0px 275px;
 }
 
 .action {
