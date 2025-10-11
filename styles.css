@@ -36,7 +36,8 @@ a {
 }
 
 .links,
-.text {
+.text,
+.footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -121,6 +122,7 @@ button,
 .action {
     flex-direction: row;
     width: 500px;
+    justify-content: space-around;
     align-items: center;
     margin: 40px auto;
     padding: 20px 30px;
@@ -133,4 +135,16 @@ button,
 
 #bottombutton {
     border-color: #E5E7EB;
+    padding: 0px 5px;
+}
+
+#actionbold {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer,
+button,
+.action {
+    font-size: 18px;
 }
