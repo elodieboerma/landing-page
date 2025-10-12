@@ -14,7 +14,6 @@ title {
 }
 
 .top {
-    /*display: inline-flex;*/
     justify-content: space-around;
     flex-direction: row;
 }
@@ -22,14 +21,14 @@ title {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    padding: 15px 30px;
+    padding: 15px 0px;
 }
 
 .links {
     flex-direction: row;
-    /*display: inline-flex;*/
     color: #E5E7EB;
-    padding: 0px;
+    padding: 0px; /*needed here because links seem to have built-in padding horizontally if not also vertically(?); otherwise alignment
+    is messed up*/
 }
 
 a {
