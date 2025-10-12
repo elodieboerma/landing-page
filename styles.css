@@ -2,18 +2,45 @@
     font-family: Roboto;
     display: flex;
     flex-direction: column;
-    /*margin: 0px;*/
+    margin: 0px;
 }
 
 title {
     display: none;
 }
 
-.hero,
+a,
+.text,
 .footer {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.imghere,
+.gallery,
+.words,
+.footer {
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 5px;
+    width: 75px;
+    padding: 0px 5px;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+
+
+/*big navy blue part at the top*/
+.hero {
     background-color: #1F2937;
 }
 
+/*strip at top of this part with "header logo" and links*/
 .top {
     justify-content: space-around;
     flex-direction: row;
@@ -27,23 +54,16 @@ title {
 
 .links {
     flex-direction: row;
-    padding: 0px; /*needed here because links seem to have built-in padding horizontally if not also vertically(?); otherwise alignment
-    is messed up*/
+    padding: 0px; /*needed here because links seem to have built-in padding horizontally; otherwise alignment is messed up*/
+    padding-top: 16px; /*not sure why I had to add this after removing the margin from the * selector*/
 }
 
 a {
     text-decoration: none;
     padding: 0px 15px;
-    color: #E5E7EB;
 }
 
-.links,
-.text,
-.footer {
-    color: #E5E7EB;
-    font-size: 18px;
-}
-
+/*bottom half of this part with heading, text, and sign up button*/
 .intro {
     justify-content: center;
     flex-direction: row;
@@ -62,39 +82,20 @@ a {
     font-weight: 900;
 }
 
-.imghere {
-    width: 425px;
-    color: #E5E7EB;
-    background-color: #e5e7eb88;
-    justify-content: center;
-    align-items: center;
-}
-
 #topbutton {
     border-color: #3882F6;
     margin: 10px 0px;
 }
 
-button {
-    border-radius: 5px;
-    width: 75px;
-    padding: 0px 5px;
-    font-size: 18px;
-}
-
-button,
-.action {
+.imghere {
+    width: 425px;
     color: #E5E7EB;
-    background-color: #3882F6;
+    background-color: #e5e7eb88;
 }
 
-.gallery,
-.words,
-.footer {
-    align-items: center;
-    justify-content: center;
-}
 
+
+/*empty boxes with subtext*/
 .info {
     color: #1F2937;
     font-size: 36px;
@@ -128,6 +129,9 @@ button,
     font-size: 18px
 }
 
+
+
+/*quote from Thor*/
 .words {
     color: #1F2937;
     background-color: #E5E7EB;
@@ -148,7 +152,12 @@ button,
     padding: 0px 275px;
 }
 
+
+
+/*medium blue section above footer*/
 .action {
+    color: #E5E7EB;
+    background-color: #3882F6;
     flex-direction: row;
     width: 750px;
     justify-content: space-around;
@@ -163,16 +172,20 @@ button,
     flex-direction: column;
 }
 
-#bottombutton {
-    border-color: #E5E7EB;
-}
-
 #actionbold {
     font-weight: bold;
     font-size: 24px;
 }
 
+#bottombutton {
+    border-color: #E5E7EB;
+}
+
+
+
+/*copyright thingy at very bottom of page*/
 .footer {
+    background-color: #1F2937;
     padding: 20px 0px;
     font-size: 18px;
 }
