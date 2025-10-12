@@ -51,16 +51,17 @@ a {
 .intro {
     width: 1000px;
     justify-content: center;
+    flex-direction: row;
 }
 
 .lefttop {
     width: 400px;
-    display: inline-block;
+    margin-right: 50px;
 }
 
-img {
-    /*display: inline-block;*/
+.imghere {
     width: 425px;
+    color: #E5E7EB;
     background-color: #e5e7eb88;
 }
 
