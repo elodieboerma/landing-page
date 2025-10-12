@@ -71,6 +71,9 @@ a {
 
 button {
     border-radius: 5px;
+    width: 75px;
+    padding: 0px 5px;
+    font-size: 18px;
 }
 
 button,
@@ -144,7 +147,6 @@ button,
 
 #bottombutton {
     border-color: #E5E7EB;
-    padding: 0px 5px;
 }
 
 #actionbold {
@@ -153,7 +155,6 @@ button,
 }
 
 .footer,
-button,
 .action {
     font-size: 18px;
 }
