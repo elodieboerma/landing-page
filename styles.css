@@ -13,10 +13,11 @@ title {
     background-color: #1F2937;
 }
 
-/*.top {
-    display: inline-flex;
+.top {
+    /*display: inline-flex;*/
     justify-content: space-around;
-}*/
+    flex-direction: row;
+}
 
 .logo {
     color: #F9FAF8;
@@ -29,10 +30,12 @@ title {
     /*display: inline-flex;*/
     color: #E5E7EB;
     justify-content: flex-end;
+    padding: 0px;
 }
 
 a {
     text-decoration: none;
+    padding: 0px 15px;
 }
 
 .links,
