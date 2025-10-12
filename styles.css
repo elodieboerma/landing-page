@@ -22,14 +22,13 @@ title {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    justify-content: flex-start;
+    padding: 15px 30px;
 }
 
 .links {
     flex-direction: row;
     /*display: inline-flex;*/
     color: #E5E7EB;
-    justify-content: flex-end;
     padding: 0px;
 }
 
@@ -46,14 +45,14 @@ a {
 }
 
 .intro {
-    width: 1000px;
     justify-content: center;
     flex-direction: row;
+    margin: 0px auto;
 }
 
 .lefttop {
     width: 400px;
-    margin-right: 50px;
+    margin-right: 75px;
 }
 
 .heading {
@@ -72,6 +71,7 @@ a {
 
 #topbutton {
     border-color: #3882F6;
+    margin: 5px 0px;
 }
 
 button {
