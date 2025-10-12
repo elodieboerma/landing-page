@@ -26,7 +26,6 @@ title {
 
 .links {
     flex-direction: row;
-    color: #E5E7EB;
     padding: 0px; /*needed here because links seem to have built-in padding horizontally if not also vertically(?); otherwise alignment
     is messed up*/
 }
@@ -34,6 +33,7 @@ title {
 a {
     text-decoration: none;
     padding: 0px 15px;
+    color: #E5E7EB;
 }
 
 .links,
