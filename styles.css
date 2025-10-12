@@ -63,6 +63,8 @@ a {
     width: 425px;
     color: #E5E7EB;
     background-color: #e5e7eb88;
+    justify-content: center;
+    align-items: center;
 }
 
 #topbutton {
